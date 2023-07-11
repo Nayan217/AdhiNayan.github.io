@@ -72,6 +72,24 @@ const typed = new Typed(".multiple-text", {
 });
 
 
+// About-"read more"
+function readAbout() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var moreBtn = document.getElementById("Read-more");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    moreBtn.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    moreBtn.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
 
 /* =========== Email ========== */
 var btn = document.getElementById("mail-submit");

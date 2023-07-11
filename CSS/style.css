@@ -227,6 +227,11 @@ span {
   margin: 2rem 0 3rem;
 }
 
+#more{
+  display: none;
+  color: var(--text-color);
+}
+
 
 /* Education & Skills */
 .education{
@@ -357,7 +362,7 @@ span {
   width: 30%;
 }
 .education-column:nth-child(2) .education-content:nth-child(5) .progress .bar span{
-  width: 80%;
+  width: 60%;
 }
 
 
